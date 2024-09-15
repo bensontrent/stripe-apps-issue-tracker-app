@@ -2,10 +2,12 @@
 
 This project aims to provide an example Stripe App to solve issues not explicitly stated in the Stripe Apps documentation.
 
-- Includes a pattern for creating a private API to handle saving a Stripe user's or company-wide settings
-- Includes a pattern on how to handle Stripe Test Mode vs Live Mode, as well as support for separate settings in Stripes Sandboxes
-- Includes a pattern to demonstrate how to implement development and production environments
-- Includes recommendations for best security practices.
+## In this example, you will
+
+- Create a private API to handle saving a Stripe user's or company-wide settings
+- Handle Stripe Test Mode vs Live Mode, as well as support for separate settings in Stripes Sandboxes
+- Create a safe way to push to production by implementing development and production environments
+- Understand best security practices.
 - Create an off-Stripe dashboard to handle additional feature, billing, and user authentication for your app.
 
 ## How we anticipate you'll use this tutorial
@@ -19,6 +21,7 @@ This project aims to provide an example Stripe App to solve issues not explicitl
 - For example, this guide starts at a 1-factor authentication level, say with an API Key to gain access to critical systems.  2-Factor security means: Having an API key alone would be useless.  There's some other 2nd-factor in your authentication, it could be another token, an IP address restriction, or something else inventive.
 
 ## Best practices for reliablity
+
 - Ensure if any server is down, your app continues to function
 
 ## In this guide
@@ -28,7 +31,6 @@ This project aims to provide an example Stripe App to solve issues not explicitl
 - Create an API your Stripe app can query
 - Add a Redis server for caching
 - Add a method for an off-Stripe dashboard to add authentication, billing for your app, or additional functionality.
-
 
 ## Add a new Supabase project
 
