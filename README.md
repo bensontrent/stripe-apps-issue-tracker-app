@@ -17,7 +17,7 @@ This project aims to provide an example Stripe App to solve issues not explicitl
 
 ## Best practices in security
 
-- While you're developing your app, we don't follow the best practices in security.  But as you graduate your app to production, this guide will give you the best practices to secure your app.  In our opinion, the best practice in security requires a negative response to this one question:  If any API key, route, .env file were hacked, would this one failure enable a hacker to gain access to secret user data?
+- While you're developing your app, we don't follow the best practices in security.  But as you graduate your app to production, this guide will give you the best practices to secure your app.  In our opinion, the best practice in security requires a negative response to this one question:  If any API key, route, or .env file were hacked, would this one failure enable a hacker to gain access to secret user data?
 - For example, this guide starts at a 1-factor authentication level, say with an API Key to gain access to critical systems.  2-Factor security means: Having an API key alone would be useless.  There's some other 2nd-factor in your authentication, it could be another token, an IP address restriction, or something else inventive.
 
 ## Best practices for reliablity
